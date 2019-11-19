@@ -1,0 +1,3 @@
+# Endpoints 1
+
+The beginning of an awesome article...
