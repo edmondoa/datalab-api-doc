@@ -1,3 +1,3 @@
-# Endpoints 1
+# Guides 1
 
 The beginning of an awesome article...
