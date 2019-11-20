@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: Endpoints
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /users:
+    get:
+      summary: /users
+      tags: []
+      responses: {}
+    post:
+      summary: /users
+      tags: []
+      responses: {}
+    put:
+      summary: '/users/{id}'
+      tags: []
+      responses: {}
+    delete:
+      summary: '/users/{id}'
+      tags: []
+      responses: {}
+components:
+  schemas: {}
+  securitySchemes: {}
