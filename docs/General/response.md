@@ -1,9 +1,6 @@
-# output-data-format.md
-
 # Responses
 `200`
-```json
-Successful request : 
+```json 
 {
   "status": {
     "success": true,
@@ -21,5 +18,18 @@ Successful request :
 }
 
 ```
+`400`
+```json
+{
+  "status": {
+    "success" : false,
+    "message" : "Something went wrong"   
+  },
+  "request": {
+   <key> : <value>,
+    "resource" : "resource url"
+  }
+}
 
+```
 
